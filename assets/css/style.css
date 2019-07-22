@@ -1,0 +1,26 @@
+.col2 {
+    width: 50%;
+    background-color: floralwhite;
+}
+
+.col3 {
+    width: 30%;
+    background-color: aquamarine;
+}
+.count {
+    width: 20%;
+    background-color: aqua;
+}
+.row3 {
+    width: 60%;
+    
+}
+.row4 {
+    width: 30%;
+    background-color: darksalmon;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+  }

@@ -6,28 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script type=text/javascript src="./javascript/game.js"></script>
+
 </head>
 
 <body>
     <div class="container">
-        <div class="row" id="header">
+        <div class="row">
             <div class="col">
                 <h1>Play Crystal Collector!</h1>
             </div>
         </div>
-        <div class="row" id="instructions">
+        <div class="row">
             <div class="col2">
                 <p>You will be given a random number at the start of the game.</p>
-                <p>There are four crystals below: by clicking on a crystal you will add a specific number of points to your total score.</p>
-                <p>You win the game by matching your total score to the random number, you lose if your total score goes above the random number.</p>
-                <p>The vavlue of each crystal is hidden from you until you click it.</p>
+                <p>There are four crystals below: by clicking on a crystal you will add a specific number of points to
+                    your total score.</p>
+                <p>You win the game by matching your total score to the random number, you lose if your total score goes
+                    above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click it.</p>
                 <p>Each time when the game starts, the values of each crystal will change.</p>
-                
             </div>
         </div>
+        <div class="row2">
+            <div class="col3">
+                <p id="computerGuess">Computer Guess: </p>
+            </div>
+            <div class="count">
+                <p id="wincount">Wins: </p>
+                <p id="losscount">Losses: </p>
+            </div>
+        </div>
+        <div class="row3" id="gems">
+            <button class="gem1"><img src="./images/gem1.jpg" alt="yellow gem"></button>
+            <button class="gem2"><img src="./images/gem2.jpg" alt="red gem"></button>
+            <button class="gem3"><img src="./images/gem3.jpg" alt="green gem"></button>
+            <button class="gem4"><img src="./images/gem4.jpg" alt="blue gem"></button>
+        </div>
+        <div class="row4" id="yourScore">
+            <div class="col">
+                <p>Your total score is: </p>
+            </div>
+        </div>
+    </div>
 
 
 
