@@ -1,6 +1,7 @@
-.container {
-    background
-}.col2 {
+.col {
+    background-image: url("/assets/images/crystalbackground.jpg");
+} /* I couldn't figure out why this image didn't show up :( */
+.col2 {
     width: 50%;
     background-color: floralwhite;
 }
